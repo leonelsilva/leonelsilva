@@ -1,0 +1,124 @@
+/*////  Font Fira Sans  ////*/
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900&display=swap');
+
+/* -------------------
+Author: Leonel silva
+Email: lsilva@gmail.
+Phone: +34 6855836783
+
+Feel fre of copy any style you like, even the entire thing or the structure if you will, call me if you need something else.
+----------------*/
+
+
+/*////  General styles  ////*/
+body, html {
+	margin: 0;
+	padding: 0;
+	font-size: 105%;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 400;
+	letter-spacing: -.013em;
+	color: #fff;
+	background: #655F7F;
+}
+
+main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#navigation {}
+#navigation .container {
+	margin: 0 auto;
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.logo {
+	display: inline-block;
+	margin: 15px 0;
+	border: none;
+	font-size: 3em;
+	/*background: url("/images/leonel-silva.png") no-repeat center center;*/
+}
+	.logo strong {display: none;}
+
+#MainNavigation {}
+	a {
+		display: inline-block;
+		padding: 10px 20px;
+		color: #fff;
+		text-decoration: none;
+		border: 1px #fff solid;
+	}
+		a:hover {background: #fff; color: #655F7F;}
+
+
+.divider { height: 20px; margin: 100px 0 50px 0;}
+section {}
+p {
+  line-height: 1.47059;
+  margin: 1em auto;
+}
+
+blockquote {margin:0;}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	padding: 1rem 0 0 0;
+	line-height: 93%;
+}
+h1 {
+	font-weight: 00;
+	font-size: 4rem;
+	letter-spacing: -.060em;
+	margin-top: 30px;
+	font-weight: 100;
+}
+h2 {
+	font-weight: 900;
+	font-size: 2rem;
+	letter-spacing: .020em;
+}
+h3 {font-size: 2rem; font-weight: 500;}
+h4 {font-size: 1.5rem; font-weight: 500;}
+h5 {font-size: 1.2rem; font-weight: 300;}
+h6 {font-size: 1.1rem; font-weight: 300;}
+
+
+
+strong {
+	font-size: 18px;
+	font-weight: 700;
+	color: #ccc;
+}
+
+footer {
+	padding: 50px 0 0 0;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+	footer p {margin: 0;}
+
+/*/////////// Responsive ///////////*/
+
+/*/// Large devices ///*/
+@media only screen and (min-width: 800px) and (max-width: 1024px)  {
+
+}
+
+/*/// Medium devices ///*/
+@media only screen and (min-width: 401px) and (max-width: 799px)  {
+
+}
+
+/*/// Small devices ///*/
+@media only screen and (min-width: 250px) and (max-width: 400px)  {
+
+}
